@@ -35,7 +35,6 @@ export default {
         .get("http://5c92dbfae7b1a00014078e61.mockapi.io/owners")
         .then(response => this.getList(response.data))
         .catch(function(error) {
-          // 请求失败处理
           console.log(error);
         });
     },
