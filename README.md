@@ -1,6 +1,7 @@
 # wshh
 
-> A Vue.js project
+> A Vue.js project, output a list of all the cats in alphabetical order under a heading of the gender of their owner.
+Steps: When the build setup is done, open the link: http://localhost:8080, it will call the pets service, then we call the method getItems(), it will return the result of the request.
 
 ## Build Setup
 
@@ -25,6 +26,5 @@ npm run e2e
 
 # run all tests
 npm test
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
